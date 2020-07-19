@@ -1,0 +1,84 @@
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+.imagearea{
+	width:100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+margin-top:5px;
+    height: 100vh;
+    opacity: 0.8;
+
+}
+.imageare{
+	width:100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+margin-top:5px;
+    height: 70vh;
+    opacity: 0.8;
+
+}
+
+.block{
+text-align: center;
+    z-index: 99;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	color:white;
+}
+.blo{
+text-align: left;
+    z-index: 99;
+	position: absolute;
+  top: 50%;
+  right:50%;
+  transform: translate(-50%, -80%);
+	color:white;
+}
+.Dollor{
+	font-size: 50px;
+}
+
+.bgcolorofconection{
+	background-color: #46237a;
+	height: 80vh;
+	color: #fff;
+	background-image: ;
+	opacity: 0.8;
+}
+.imagearea{
+	background-image: url(image/chicago.jpg);
+}
+.green{
+	color: green;
+}
+.mainaside{
+	background-color: #F6F6F6;
+	color: #000;
+	height: 100%;
+}
+.footer{
+	height: 10vh;
+}
